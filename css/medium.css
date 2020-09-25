@@ -141,6 +141,7 @@ header .skew-box {
 
 #prenumerata .prenumerata-grid-container {
   grid-gap: 4rem;
+  padding: 60px 0;
 }
 
 #prenumerata .prenumerata-grid-container .prenumerata-grid-item .right-column h3 {

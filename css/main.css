@@ -379,7 +379,6 @@ header .skew-box {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: white;
 }
 
 #prenumerata .jumbotron {
@@ -391,7 +390,7 @@ header .skew-box {
 }
 
 #prenumerata .prenumerata-grid-container {
-  padding: 80px 0;
+  padding: 40px 0;
   height: 100%;
   display: -ms-grid;
   display: grid;

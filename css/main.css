@@ -84,7 +84,7 @@ body {
 
 .wrapper {
   width: 80%;
-  color: gold;
+  color: #ffd700;
   margin: 0 auto;
   text-transform: uppercase;
 }
@@ -104,7 +104,7 @@ h2::after {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-color: gold;
+  background-color: #ffd700;
 }
 
 h2::before {
@@ -116,7 +116,7 @@ h2::before {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-color: gold;
+  background-color: #ffd700;
 }
 
 nav {
@@ -133,16 +133,16 @@ nav a, nav i {
 }
 
 nav .active {
-  color: gold;
+  color: #ffd700;
 }
 
 nav a:hover {
-  color: gold;
+  color: #ffd700;
 }
 
 nav i {
   padding: 10px;
-  color: gold;
+  color: #ffd700;
 }
 
 nav .navbar-brand {
@@ -151,12 +151,12 @@ nav .navbar-brand {
 }
 
 nav .navbar-brand:hover {
-  color: gold;
+  color: #ffd700;
 }
 
 header {
   height: 100vh;
-  background-color: gold;
+  background-color: #ffd700;
   position: relative;
   overflow: hidden;
 }

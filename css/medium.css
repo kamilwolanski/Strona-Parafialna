@@ -1,0 +1,173 @@
+.wrapper h2 {
+  font-size: 50px;
+}
+
+.wrapper .groups {
+  font-size: 40px;
+}
+
+.wrapper h2::after {
+  width: 50px;
+  left: -40px;
+}
+
+.wrapper h2::before {
+  width: 50px;
+  right: -40px;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+header .hero-text {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40%;
+  padding: 0 60px;
+}
+
+header .hero-text h1 {
+  font-size: 55px;
+}
+
+header .hero-text .fa-chevron-down {
+  display: block;
+  position: absolute;
+  bottom: 40px;
+  font-size: 50px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: white;
+  -webkit-animation: bounce 1.6s infinite;
+          animation: bounce 1.6s infinite;
+}
+
+header .hero-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 60%;
+  background-image: url("../img/kosciol.png");
+  background-position-x: 17%;
+  background-size: cover;
+}
+
+header .skew-box {
+  display: none;
+}
+
+#mszeSwiete {
+  height: 650px;
+}
+
+#mszeSwiete .jumbotron-fluid .grid-container {
+  margin: 40px 0;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: initial;
+      grid-template-rows: initial;
+}
+
+#mszeSwiete .jumbotron-fluid .grid-container .cross {
+  height: auto;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: initial;
+}
+
+#mszeSwiete .jumbotron-fluid .grid-container .cross i {
+  font-size: 300px;
+}
+
+#mszeSwiete .jumbotron-fluid .grid-container .information h3 {
+  font-size: 17px;
+}
+
+#mszeSwiete .jumbotron-fluid .grid-container .information p {
+  font-size: 14px;
+}
+
+#mszeSwiete .jumbotron-fluid .grid-container .information .btn-container {
+  margin: 30px auto;
+}
+
+#quotation .background .box-shadow .wrapper .quatation-box {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#quotation .background .box-shadow .wrapper .quatation-box .quotation-text {
+  font-size: 20px;
+  letter-spacing: 7px;
+  line-height: 30px;
+}
+
+#quotation .background .box-shadow .wrapper .quatation-box p {
+  text-align: right;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+#grupy-parafialne .cards .card {
+  width: 20rem;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#grupy-parafialne .cards .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#grupy-parafialne h2 {
+  font-size: 50px;
+}
+
+#prenumerata .prenumerata-grid-container {
+  grid-gap: 4rem;
+}
+
+#prenumerata .prenumerata-grid-container .prenumerata-grid-item .right-column h3 {
+  padding-bottom: 15px;
+}
+
+#prenumerata .prenumerata-grid-container .prenumerata-grid-item .right-column p {
+  font-size: 16px;
+}
+
+#prenumerata .prenumerata-grid-container .prenumerata-grid-item .right-column .btn-container {
+  width: 200px;
+  height: 70px;
+}
+
+#prenumerata .prenumerata-grid-container .prenumerata-grid-item .right-column .btn-container .btn p {
+  text-transform: uppercase;
+}
+
+#prenumerata .prenumerata-grid-container .prenumerata-grid-item:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+#prenumerata .prenumerata-grid-container .prenumerata-grid-item:nth-child(even) .left-column img {
+  float: right;
+}
+/*# sourceMappingURL=medium.css.map */

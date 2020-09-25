@@ -1,0 +1,582 @@
+$gold-color:gold;
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333;
+    
+}
+
+.bttn-warning{
+    color: black;
+    width: 150px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.btn-container{
+    width: 150px;
+    height: 50px;
+    margin: 40px auto;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+
+    .btn{
+        border-radius: 0;
+        height: 100%;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p{
+        color: black;
+        margin-bottom: 0;
+        z-index: -1;
+    }
+   
+}
+
+
+.btn-color{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -20px;
+    left: -20px;
+    color: white;
+    background-color: #ffd700;
+    z-index: -4;
+    transition: .3s;
+
+    
+}
+
+.jumbotron{
+    margin: 0;
+}
+
+
+.os-animation{
+    visibility: hidden;
+}
+
+.scroll-fix::before{
+    content: '';
+    display: block;
+    height: 67px;
+    margin-top: -67px;
+}
+.wrapper{
+    width: 80%;
+    color: $gold-color;
+    margin: 0 auto;
+    text-transform: uppercase;
+} 
+    h2{
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+    }
+
+    
+
+    h2::after{
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 3px;
+        left: -10px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: $gold-color;
+    }
+    h2::before{
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 3px;
+        right: -10px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: $gold-color;
+    }
+
+  
+nav{
+    text-transform: uppercase;
+    background-color: white;
+    transition: all .4s;
+
+
+    a, i{
+        color:rgb(83, 81, 81);
+        transition: color .3s;
+    }
+    .active{
+        color:$gold-color;
+    }
+    a:hover{
+        color:$gold-color;
+    }
+    i{
+        padding: 10px;
+        color: $gold-color;
+    }
+    .navbar-brand{
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .navbar-brand:hover{
+        color: $gold-color;
+    }
+ 
+}
+
+header{
+    height: 100vh;
+    background-color: $gold-color;
+    position: relative;
+    overflow: hidden;
+
+    .hero-text{
+        text-align: center;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 85%;
+        height: 100%;
+        padding: 0 30px;
+        text-transform: uppercase;
+        position: relative;
+
+        h1{
+            font-size: 40px;
+            margin-right: 30px;
+            color: rgba(39, 37, 37, 0.87);
+        }
+
+        .fa-chevron-down{
+            display: none;
+        }
+    }
+        .square{
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            width: 50%;
+            height: 200px;
+
+        }
+        .skew-box{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 250px;
+            -webkit-transform: skewY(-40deg);
+            transform: skewY(-40deg);
+            background-color: white;
+        }
+    }
+   
+
+#mszeswiete{
+
+    .jumbotron-fluid{
+        background-color: #f7f7f7;
+
+        .grid-container{
+            margin: 50px 0;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 2fr;
+    
+            .cross{
+                height: auto;
+                grid-column: 1/2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 40px;
+                
+                i{
+                    font-size: 100px;
+                    text-shadow: 0 0 5px #000000;
+                }
+            }
+    
+            .information{
+                text-align: center;
+    
+                h3{
+                    font-size: 20px;
+                    color: black;
+                    opacity: .7;
+                }
+    
+                .btn-container{
+                    width: 200px;
+                    height: 70px;
+                    margin: 40px auto;
+                    background-color: white;
+                    cursor: pointer;
+                    position: relative;
+                    z-index: 1;
+    
+                    p{
+                        color: black;
+                    }
+                   
+                }
+    
+            }
+        }
+    }
+}
+
+#quotation{
+    min-height: 500px;
+
+    .background{
+        background-image: url(/img/oltarz.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        background-attachment: fixed;
+        overflow: hidden;
+        height: 100%;
+        // min-height: 500px;
+
+        .box-shadow{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,.6);
+            display: flex;
+            align-items: center;
+            .wrapper{
+                height: 80%;
+              
+                .quatation-box{
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    .quotation-text{
+                        color: white;
+                        font-size: 13px;
+                        text-align: center;
+                        letter-spacing: 5px;
+                        line-height: 25px;
+                    }
+                    p{
+                        text-align: right;
+                        font-size: 18px;
+                    }
+                  
+                    
+                }
+            }
+        }
+    }
+    
+
+    
+}
+    
+
+#grupy-parafialne{
+    overflow: hidden;
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 30px 0;
+        .card{
+            // height: 400px;
+            width: 100%;
+            margin: 2rem 1rem;
+            box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.95);
+
+            img{
+                height: 220px;
+                object-fit: cover;
+            }
+    
+            .card-text{
+                color: black;
+                opacity: .7;
+                font-size: 13px;
+            }
+            .btn-container{
+                margin: 20px auto;
+                width: 150px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+#prenumerata{
+    height: fit-content;
+    background-color: white;
+    .jumbotron{
+        background-color: #fff;
+
+        h2::before,h2::after{
+            width: 30px;
+        }
+    }
+    .prenumerata-grid-container{
+        padding: 80px 0;
+        height: 100%;
+        display: grid;
+        column-gap: 40px;
+        grid-template-rows: 1fr;
+        grid-gap:2rem;
+
+        
+
+        .prenumerata-grid-item{
+            display: flex;
+            .left-column{
+                width: 30%;
+                height: 100%;
+                background-position: center;
+                background-size: cover;
+
+                img{
+                    width: 80%;
+                }
+            }
+
+            .right-column{
+                width: 70%;
+
+                h3{
+                    text-align: center;
+                }
+
+                p{
+                    font-size: 11px;
+                    padding-top: 15px;
+                    color: black;
+                    opacity: .7;
+                    text-transform: initial;
+                }
+
+                .btn-container{
+
+                    .btn{
+
+                        p{
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .prenumerata-grid-item:nth-child(even){
+            flex-direction: row-reverse;
+
+            .left-column{
+                
+                img{
+                    float: right;
+                }
+            }
+        }
+    }
+}
+
+#kontakt{
+    // height: 650px;
+    // position: relative;
+    .background{
+        width: 100%;
+        height: 100%;
+        background-image: url(/img/footer-img.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+
+        .box-shadow{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            background-color: rgba(0,0,0,.8);
+
+            .wrapper{
+                h5{
+                    font-size: 15px;
+                }
+                h2{
+                    margin-top: 30px;
+                }
+                .parish-office{
+                    padding-top: 30px;
+                    p{
+                        margin-bottom: 0;
+                        font-size: 12px;
+                    }
+                    h4{
+                        padding-bottom: 15px;
+                        font-size: 16px;
+                    }
+                    .summer-period{
+                        color: white;
+                        padding-bottom: 10px;
+                    }
+                    .days-of-the-week{
+                        color: white;
+                    }
+                    .time{
+                        color: papayawhip;
+                    }
+                    .winter-period{
+                        padding-top: 10px;
+                        color: white;
+                    }
+                }
+                .contact-box{
+                    padding-top: 30px;
+                    h4{
+                        padding-bottom: 15px;
+                        font-size: 16px;
+                    }
+                    h5{
+                        color: white;
+                    }
+                    p{
+                        color: papayawhip;
+                        text-transform: initial;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    p{
+        text-align: center;
+        padding: 15px;
+        color: #fff;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width:374px){
+
+    .wrapper{
+        h2{
+            font-size: 20px;
+        }
+
+        h2::after{
+            width: 40px;
+            height: 3px;
+            left: 2%;
+        }
+
+        h2:before{
+            width: 40px;
+            height: 3px;
+            right: 2%;
+        }
+    }
+    nav{
+        .navbar-brand{
+            font-size: 12px;
+            i{
+                font-size: 22px;
+            }
+        }
+    }
+    header{
+        .hero-text{
+            h1{
+                font-size: 25px;
+            }
+        }
+    }
+
+    #prenumerata{
+        .prenumerata-grid-container{       
+            .prenumerata-grid-item{
+                .right-column{
+    
+                    h3{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+#grupy-parafialne{
+    h2{
+        font-size: 30px;
+    }
+
+    .card-body{
+        padding:1rem;
+        min-height: initial;
+    }
+
+}
+
+
+
+@media (orientation: landscape){
+    header{
+        .skew-box{
+            width: 100%;
+            height: 40%;
+            left: 30%;
+        }
+
+        .hero-text{
+            justify-content: center;
+            padding: initial;
+            width: 70%;
+            h1{
+                font-size: 36px;
+            }
+        }
+    }
+}
+
+@media (min-width: 568px) and (max-width:660px) and (orientation: landscape){
+    header{
+        .hero-text{
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+
+
+#quotation{
+    .background{
+        .box-shadow{
+            .wrapper{
+                .quatation-box{
+                    justify-content: center;
+                    .quotation-text{
+                        font-size: 17px;
+                        letter-spacing: 5px;
+                        line-height: 30px;
+                    }
+                    p{
+                        font-size: 22px;
+                    }
+                  
+                    
+                }
+            }
+        }
+    }
+}
+
+#prenumerata{
+    .jumbotron{
+        h2::before,h2::after{
+            width: 40px;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.wrapper .groups {
+  font-size: 60px;
+}
+
+.wrapper .groups::after {
+  width: 100px;
+  left: 50px;
+}
+
+.wrapper .groups::before {
+  width: 100px;
+  right: 50px;
+}
+
+.wrapper h2::after {
+  width: 100px;
+  left: 140px;
+}
+
+.wrapper h2::before {
+  width: 100px;
+  right: 140px;
+}
+
+#grupy-parafialne {
+  min-height: 600px;
+}
+
+#grupy-parafialne .cards .card {
+  width: 20rem;
+}
+
+#grupy-parafialne .cards .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#grupy-parafialne h2 {
+  font-size: 55px;
+}
+
+#kontakt .background .box-shadow .wrapper .parish-office .winter-period {
+  padding-bottom: 20px;
+}
+
+#prenumerata .jumbotron h2::before, #prenumerata .jumbotron h2::after {
+  width: 100px;
+}
+/*# sourceMappingURL=extra-large.css.map */

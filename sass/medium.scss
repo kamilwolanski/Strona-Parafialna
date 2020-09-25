@@ -1,0 +1,191 @@
+.wrapper{
+    h2{
+        font-size: 50px;
+    }
+    .groups{
+        font-size: 40px;
+    }
+    h2::after{
+        width: 50px;
+        left: -40px;
+
+    }
+
+    h2::before{
+        width: 50px;
+        right: -40px;
+    }
+
+
+
+}
+nav{
+    .navbar-brand{
+        font-weight: bold;
+        font-size: 30px;
+    }
+}
+
+
+header{
+    .hero-text{
+        justify-content: center;
+        width: 40%;
+        padding: 0 60px;
+        h1{
+            font-size: 55px;
+        }
+
+        .fa-chevron-down{
+            display: block;
+            position: absolute;
+            bottom: 40px;
+            font-size: 50px;
+            left:50%;
+            transform: translateX(-50%);
+            color: white;
+            animation: bounce 1.6s infinite;
+        }
+    }
+    .hero-img{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 60%;
+        background-image: url('../img/kosciol.png');
+        background-position-x: 17%;
+        background-size: cover;
+    }
+    .skew-box{
+        display: none;
+    }
+}
+
+#mszeSwiete{
+    height: 650px;
+    .jumbotron-fluid{
+        .grid-container{
+            margin: 40px 0;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: initial;
+    
+            .cross{
+                height: auto;
+                grid-column: 1/2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: initial;
+                
+                i{
+                    font-size: 300px;
+                }
+            }
+
+            .information{
+                h3{
+                    font-size: 17px;
+                }
+
+                p{
+                    font-size: 14px;
+                }
+
+                .btn-container{
+                    margin: 30px auto;
+                }
+            }
+    }
+    }
+
+}
+
+#quotation{
+    .background{
+        .box-shadow{
+            .wrapper{
+                .quatation-box{
+                    justify-content: center;
+                    .quotation-text{
+                        font-size: 20px;
+                        letter-spacing: 7px;
+                        line-height: 30px;
+                    }
+                    p{
+                        text-align: right;
+                        font-size: 30px;
+                        margin-top: 40px;
+                    }
+                  
+                    
+                }
+            }
+        }
+    }
+    
+
+    
+}
+
+#grupy-parafialne{
+    .cards{
+        .card{
+            width: 20rem;
+            transition: .3s;
+        }
+
+        .card:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    h2{
+        font-size: 50px;
+    }
+}
+
+#prenumerata{
+
+    .prenumerata-grid-container{
+        grid-gap:4rem;
+        .prenumerata-grid-item{
+
+            .right-column{
+
+                h3{
+                    padding-bottom: 15px;
+                }
+
+                p{
+                    font-size: 16px;
+                }
+                .btn-container{
+                    width: 200px;
+                    height: 70px;
+                    .btn{
+
+                        p{
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .prenumerata-grid-item:nth-child(even){
+            flex-direction: row-reverse;
+
+            .left-column{
+                
+                img{
+                    float: right;
+                }
+            }
+
+        }
+    }
+}
+
+

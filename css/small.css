@@ -1,0 +1,20 @@
+#quotation .background .box-shadow .wrapper .quatation-box {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#quotation .background .box-shadow .wrapper .quatation-box .quotation-text {
+  font-size: 17px;
+  letter-spacing: 5px;
+  line-height: 30px;
+}
+
+#quotation .background .box-shadow .wrapper .quatation-box p {
+  font-size: 22px;
+}
+
+#prenumerata .jumbotron h2::before, #prenumerata .jumbotron h2::after {
+  width: 40px;
+}
+/*# sourceMappingURL=small.css.map */

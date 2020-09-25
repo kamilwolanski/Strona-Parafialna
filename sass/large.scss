@@ -1,0 +1,100 @@
+
+
+.wrapper{
+    h2::after{
+        width: 50px;
+        left: 60px;
+
+    }
+
+    h2::before{
+        width: 50px;
+        right: 60px;
+    }
+}
+
+header{
+    .hero-text{
+        width: 50%;
+        h1{
+            margin-right: 30px;
+            font-size: 45px;
+        }
+    }
+}
+
+
+#quotation{
+    .background{
+        .box-shadow{
+            .wrapper{
+                .quatation-box{
+                    .quotation-text{
+                        font-size: 30px;
+                        letter-spacing: 7px;
+                        line-height: 40px;
+                    }
+                    p{
+                        font-size: 35px;
+                    }
+                  
+                    
+                }
+            }
+        }
+    }
+    
+
+    
+}
+
+#kontakt{
+    height: 500px;
+
+    .background{
+        .box-shadow{
+            .wrapper{
+                h5{
+                    font-size: 18px;
+                }
+                .parish-office{
+                    padding-top: 40px;
+                    p{
+                        margin-bottom: 0;
+                        font-size: 15px;
+                    }
+                    h4{
+                        font-size: 25px;
+                    }
+                    .summer-period{
+                        color: white;
+                        padding-bottom: 10px;
+                    }
+                    .days-of-the-week{
+                        color: white;
+                    }
+                    .time{
+                        color: papayawhip;
+                    }
+                    .winter-period{
+                        padding-top: 15px;
+                        color: white;
+                    }
+                }
+                .contact-box{
+                    padding-top: 40px;
+                    h4{
+                        font-size: 25px;
+                    }
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    margin-top: 67px;
+}

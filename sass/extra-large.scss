@@ -1,0 +1,65 @@
+.wrapper{
+    .groups{
+        font-size: 60px;
+      
+    }
+    .groups::after{
+        width: 100px;
+        left: 50px;
+
+    }
+
+    .groups::before{
+        width: 100px;
+        right: 50px;
+    }
+    h2::after{
+        width: 100px;
+        left: 140px;
+
+    }
+
+    h2::before{
+        width: 100px;
+        right: 140px;
+    }
+    
+}
+#grupy-parafialne{
+    min-height: 600px;
+    .cards{
+        .card{
+            width: 20rem;
+        }
+        .card:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    h2{
+        font-size: 55px;
+    }
+}
+
+#kontakt{
+
+    .background{
+        .box-shadow{
+            .wrapper{
+                .parish-office{
+                    .winter-period{
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#prenumerata{
+    .jumbotron{
+        h2::before,h2::after{
+            width: 100px;
+        }
+    }
+} 

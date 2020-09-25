@@ -1,0 +1,55 @@
+
+
+header .hero-text h1{
+    font-size: 60px;
+}
+
+.wrapper{
+    .grid-container{
+        margin: 60px 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: initial;
+    
+        .cross{
+            height: auto;
+            grid-column: 1/2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: initial;
+            
+            i{
+                font-size: 400px;
+            }
+        }
+    
+        .information{
+            text-align: center;
+    
+            h3{
+                font-size: 40px;
+            }
+    
+            p{
+                font-size: 30px;
+            }
+    
+            .btn-container{
+                width: 400px;
+            }
+        }
+    }
+    
+}
+
+#grupy-parafialne{
+    .cards{
+        .card{
+            width: 26rem;
+        }
+    }
+
+    h2{
+        font-size: 70px;
+    }
+}

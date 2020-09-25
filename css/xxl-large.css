@@ -1,0 +1,57 @@
+header .hero-text h1 {
+  font-size: 60px;
+}
+
+.wrapper .grid-container {
+  margin: 60px 0;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: initial;
+      grid-template-rows: initial;
+}
+
+.wrapper .grid-container .cross {
+  height: auto;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: initial;
+}
+
+.wrapper .grid-container .cross i {
+  font-size: 400px;
+}
+
+.wrapper .grid-container .information {
+  text-align: center;
+}
+
+.wrapper .grid-container .information h3 {
+  font-size: 40px;
+}
+
+.wrapper .grid-container .information p {
+  font-size: 30px;
+}
+
+.wrapper .grid-container .information .btn-container {
+  width: 400px;
+}
+
+#grupy-parafialne .cards .card {
+  width: 26rem;
+}
+
+#grupy-parafialne h2 {
+  font-size: 70px;
+}
+/*# sourceMappingURL=xxl-large.css.map */

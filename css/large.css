@@ -1,0 +1,84 @@
+.wrapper h2::after {
+  width: 50px;
+  left: 60px;
+}
+
+.wrapper h2::before {
+  width: 50px;
+  right: 60px;
+}
+
+header .hero-text {
+  width: 50%;
+}
+
+header .hero-text h1 {
+  margin-right: 30px;
+  font-size: 45px;
+}
+
+#quotation .background .box-shadow .wrapper .quatation-box .quotation-text {
+  font-size: 30px;
+  letter-spacing: 7px;
+  line-height: 40px;
+}
+
+#quotation .background .box-shadow .wrapper .quatation-box p {
+  font-size: 35px;
+}
+
+#kontakt {
+  height: 500px;
+}
+
+#kontakt .background .box-shadow .wrapper h5 {
+  font-size: 18px;
+}
+
+#kontakt .background .box-shadow .wrapper .parish-office {
+  padding-top: 40px;
+}
+
+#kontakt .background .box-shadow .wrapper .parish-office p {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+#kontakt .background .box-shadow .wrapper .parish-office h4 {
+  font-size: 25px;
+}
+
+#kontakt .background .box-shadow .wrapper .parish-office .summer-period {
+  color: white;
+  padding-bottom: 10px;
+}
+
+#kontakt .background .box-shadow .wrapper .parish-office .days-of-the-week {
+  color: white;
+}
+
+#kontakt .background .box-shadow .wrapper .parish-office .time {
+  color: papayawhip;
+}
+
+#kontakt .background .box-shadow .wrapper .parish-office .winter-period {
+  padding-top: 15px;
+  color: white;
+}
+
+#kontakt .background .box-shadow .wrapper .contact-box {
+  padding-top: 40px;
+}
+
+#kontakt .background .box-shadow .wrapper .contact-box h4 {
+  font-size: 25px;
+}
+
+#kontakt .background .box-shadow .wrapper .contact-box p {
+  font-size: 15px;
+}
+
+footer {
+  margin-top: 67px;
+}
+/*# sourceMappingURL=large.css.map */

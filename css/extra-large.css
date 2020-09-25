@@ -22,25 +22,25 @@
   right: 140px;
 }
 
-#grupy-parafialne {
+#parish-groups {
   min-height: 600px;
 }
 
-#grupy-parafialne .cards .card {
+#parish-groups .cards .card {
   width: 20rem;
   margin: 2rem 0.5rem;
 }
 
-#grupy-parafialne .cards .card:hover {
+#parish-groups .cards .card:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-#grupy-parafialne h2 {
+#parish-groups h2 {
   font-size: 55px;
 }
 
-#kontakt .background .box-shadow .wrapper .parish-office .winter-period {
+#contact .background .box-shadow .wrapper .parish-office .winter-period {
   padding-bottom: 20px;
 }
 

@@ -61,11 +61,11 @@ header .skew-box {
   display: none;
 }
 
-#mszeSwiete {
+#holy-mass {
   height: 650px;
 }
 
-#mszeSwiete .jumbotron-fluid .grid-container {
+#holy-mass .jumbotron-fluid .grid-container {
   margin: 40px 0;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
@@ -73,7 +73,7 @@ header .skew-box {
       grid-template-rows: initial;
 }
 
-#mszeSwiete .jumbotron-fluid .grid-container .cross {
+#holy-mass .jumbotron-fluid .grid-container .cross {
   height: auto;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
@@ -90,19 +90,19 @@ header .skew-box {
   margin-bottom: initial;
 }
 
-#mszeSwiete .jumbotron-fluid .grid-container .cross i {
+#holy-mass .jumbotron-fluid .grid-container .cross i {
   font-size: 300px;
 }
 
-#mszeSwiete .jumbotron-fluid .grid-container .information h3 {
+#holy-mass .jumbotron-fluid .grid-container .information h3 {
   font-size: 17px;
 }
 
-#mszeSwiete .jumbotron-fluid .grid-container .information p {
+#holy-mass .jumbotron-fluid .grid-container .information p {
   font-size: 14px;
 }
 
-#mszeSwiete .jumbotron-fluid .grid-container .information .btn-container {
+#holy-mass .jumbotron-fluid .grid-container .information .btn-container {
   margin: 30px auto;
 }
 
@@ -124,18 +124,20 @@ header .skew-box {
   margin-top: 40px;
 }
 
-#grupy-parafialne .cards .card {
+#parish-groups .cards .card {
   width: 20rem;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
 }
 
-#grupy-parafialne .cards .card:hover {
+#parish-groups .cards .card:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-#grupy-parafialne h2 {
+#parish-groups h2 {
   font-size: 50px;
 }
 

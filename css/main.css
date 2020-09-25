@@ -212,11 +212,11 @@ header .skew-box {
   background-color: white;
 }
 
-#mszeswiete .jumbotron-fluid {
+#holy-mass .jumbotron-fluid {
   background-color: #f7f7f7;
 }
 
-#mszeswiete .jumbotron-fluid .grid-container {
+#holy-mass .jumbotron-fluid .grid-container {
   margin: 50px 0;
   display: -ms-grid;
   display: grid;
@@ -226,7 +226,7 @@ header .skew-box {
       grid-template-rows: 2fr;
 }
 
-#mszeswiete .jumbotron-fluid .grid-container .cross {
+#holy-mass .jumbotron-fluid .grid-container .cross {
   height: auto;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
@@ -243,22 +243,22 @@ header .skew-box {
   margin-bottom: 40px;
 }
 
-#mszeswiete .jumbotron-fluid .grid-container .cross i {
+#holy-mass .jumbotron-fluid .grid-container .cross i {
   font-size: 100px;
-  text-shadow: 0 0 5px #000000;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-#mszeswiete .jumbotron-fluid .grid-container .information {
+#holy-mass .jumbotron-fluid .grid-container .information {
   text-align: center;
 }
 
-#mszeswiete .jumbotron-fluid .grid-container .information h3 {
+#holy-mass .jumbotron-fluid .grid-container .information h3 {
   font-size: 20px;
   color: black;
   opacity: .7;
 }
 
-#mszeswiete .jumbotron-fluid .grid-container .information .btn-container {
+#holy-mass .jumbotron-fluid .grid-container .information .btn-container {
   width: 200px;
   height: 70px;
   margin: 40px auto;
@@ -268,7 +268,7 @@ header .skew-box {
   z-index: 1;
 }
 
-#mszeswiete .jumbotron-fluid .grid-container .information .btn-container p {
+#holy-mass .jumbotron-fluid .grid-container .information .btn-container p {
   color: black;
 }
 
@@ -330,11 +330,11 @@ header .skew-box {
   font-size: 18px;
 }
 
-#grupy-parafialne {
+#parish-groups {
   overflow: hidden;
 }
 
-#grupy-parafialne .cards {
+#parish-groups .cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -350,26 +350,27 @@ header .skew-box {
   margin: 30px 0;
 }
 
-#grupy-parafialne .cards .card {
+#parish-groups .cards .card {
   width: 100%;
   margin: 2rem 1rem;
-  -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.95);
-          box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.95);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border: none;
 }
 
-#grupy-parafialne .cards .card img {
+#parish-groups .cards .card img {
   height: 220px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#grupy-parafialne .cards .card .card-text {
+#parish-groups .cards .card .card-text {
   color: black;
   opacity: .7;
   font-size: 13px;
 }
 
-#grupy-parafialne .cards .card .btn-container {
+#parish-groups .cards .card .btn-container {
   margin: 20px auto;
   width: 150px;
   height: 50px;
@@ -428,7 +429,6 @@ header .skew-box {
 
 #prenumerata .prenumerata-grid-container .prenumerata-grid-item .right-column p {
   font-size: 11px;
-  padding-top: 15px;
   color: black;
   opacity: .7;
   text-transform: initial;
@@ -449,7 +449,7 @@ header .skew-box {
   float: right;
 }
 
-#kontakt .background {
+#contact .background {
   width: 100%;
   height: 100%;
   background-image: url(/img/footer-img.jpg);
@@ -458,7 +458,7 @@ header .skew-box {
   position: relative;
 }
 
-#kontakt .background .box-shadow {
+#contact .background .box-shadow {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -466,60 +466,60 @@ header .skew-box {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-#kontakt .background .box-shadow .wrapper h5 {
+#contact .background .box-shadow .wrapper h5 {
   font-size: 15px;
 }
 
-#kontakt .background .box-shadow .wrapper h2 {
+#contact .background .box-shadow .wrapper h2 {
   margin-top: 30px;
 }
 
-#kontakt .background .box-shadow .wrapper .parish-office {
+#contact .background .box-shadow .wrapper .parish-office {
   padding-top: 30px;
 }
 
-#kontakt .background .box-shadow .wrapper .parish-office p {
+#contact .background .box-shadow .wrapper .parish-office p {
   margin-bottom: 0;
   font-size: 12px;
 }
 
-#kontakt .background .box-shadow .wrapper .parish-office h4 {
+#contact .background .box-shadow .wrapper .parish-office h4 {
   padding-bottom: 15px;
   font-size: 16px;
 }
 
-#kontakt .background .box-shadow .wrapper .parish-office .summer-period {
+#contact .background .box-shadow .wrapper .parish-office .summer-period {
   color: white;
   padding-bottom: 10px;
 }
 
-#kontakt .background .box-shadow .wrapper .parish-office .days-of-the-week {
+#contact .background .box-shadow .wrapper .parish-office .days-of-the-week {
   color: white;
 }
 
-#kontakt .background .box-shadow .wrapper .parish-office .time {
+#contact .background .box-shadow .wrapper .parish-office .time {
   color: papayawhip;
 }
 
-#kontakt .background .box-shadow .wrapper .parish-office .winter-period {
+#contact .background .box-shadow .wrapper .parish-office .winter-period {
   padding-top: 10px;
   color: white;
 }
 
-#kontakt .background .box-shadow .wrapper .contact-box {
+#contact .background .box-shadow .wrapper .contact-box {
   padding-top: 30px;
 }
 
-#kontakt .background .box-shadow .wrapper .contact-box h4 {
+#contact .background .box-shadow .wrapper .contact-box h4 {
   padding-bottom: 15px;
   font-size: 16px;
 }
 
-#kontakt .background .box-shadow .wrapper .contact-box h5 {
+#contact .background .box-shadow .wrapper .contact-box h5 {
   color: white;
 }
 
-#kontakt .background .box-shadow .wrapper .contact-box p {
+#contact .background .box-shadow .wrapper .contact-box p {
   color: papayawhip;
   text-transform: initial;
   font-size: 12px;
@@ -560,11 +560,11 @@ footer p {
   }
 }
 
-#grupy-parafialne h2 {
+#parish-groups h2 {
   font-size: 30px;
 }
 
-#grupy-parafialne .card-body {
+#parish-groups .card-body {
   padding: 1rem;
   min-height: initial;
 }

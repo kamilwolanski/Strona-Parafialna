@@ -62,7 +62,7 @@ header{
     }
 }
 
-#mszeSwiete{
+#holy-mass{
     height: 650px;
     .jumbotron-fluid{
         .grid-container{
@@ -128,11 +128,11 @@ header{
     
 }
 
-#grupy-parafialne{
+#parish-groups{
     .cards{
         .card{
             width: 20rem;
-            transition: .3s;
+            transition: transform .3s;
         }
 
         .card:hover{

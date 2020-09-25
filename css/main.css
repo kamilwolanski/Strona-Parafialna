@@ -277,7 +277,7 @@ header .skew-box {
 }
 
 #quotation .background {
-  background-image: url(/img/oltarz.jpg);
+  background-image: url("../img/oltarz.jpg");
   background-position: center;
   background-size: cover;
   position: relative;

@@ -28,6 +28,7 @@
 
 #grupy-parafialne .cards .card {
   width: 20rem;
+  margin: 2rem 0.5rem;
 }
 
 #grupy-parafialne .cards .card:hover {

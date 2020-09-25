@@ -272,10 +272,6 @@ header .skew-box {
   color: black;
 }
 
-#quotation {
-  min-height: 500px;
-}
-
 #quotation .background {
   background-image: url("../img/oltarz.jpg");
   background-position: center;
